@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rope Acess SP</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="index.js" defer></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
+</head>
+<body>
+  <section id="section1">
+  </section>
+
+  <section id="section2">
+    <h1>Quem somos</h1>
+    <p>Criada no ano de 2024, buscando atender a grande demanda de
+      profissionais qualificados em trabalhos em altura e espaço confinado a
+      Rope Access São Paulo providencia as melhores soluções de acordo
+      com a necessidade de nossos clientes. </p>
+    <p>Tem seu corpo técnico formado por técnicos de segurança do trabalho,
+      bombeiros, técnicos de enfermagem e profissionais no seguimento de
+      altura e espaço confinado, com experiência comprovada na área e em
+      áreas correlatas. </p>
+  </section>
+
+  <section id="section3">
+    <h1>Nossa Equipe</h1>
+    <div>
+      <div class="colaborador">
+        <p class="nome_colaborador">Gustavo da Vinha</p>
+        <p class="dados_colaborador">
+          Bombeiro Profissional Civil - (2018) <br>
+          Téc. De Enf. - FECS (2019) <br>
+          Basic Life Support - AHA (2022) <br>
+          Guarda Vidas CBMESP (2023) <br>
+          Téc. De Seg. Do Trabalho – Uni.<br>
+          Cruzeiro do Sul (2024) <br>
+          N1 RTVA Task (2024)
+        </p>
+      </div>
+      <div class="imgs_colaborador">
+        <img src="./images/gustavo1.png" alt="Imagem Gustavo da Vinha" id="img_gustavo_1">
+        <img src="./images/gustavo2.jpg" alt="Imagem Gustavo da Vinha" id="img_gustavo_2">
+        <img src="./images/gustavo3.jpg" alt="Imagem Gustavo da Vinha" id="img_gustavo_3">
+      </div>
+    </div>
+  </section>
+
+  <section id="section4">
+    <h1>Serviços Prestados em Áreas:</h1>
+    <div>
+      <div class="area_atuacao" id="comercial">
+        <div>
+          <img src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <span>Comercial</span>
+        </div>
+        <button onclick="abrirPopup('popupComercial')">Veja Mais</button>
+        <dialog id="popupComercial" class="popup">
+          <div>
+            <h1>Comercial</h1>
+            <button onclick="fecharPopup('popupComercial')">X</button>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur provident vel unde amet enim atque cumque est ad explicabo ipsum cum veritatis aliquam cupiditate, inventore ratione incidunt illo vero eum?</p>
+        </dialog>
+      </div>
+      <div class="area_atuacao" id="industrial">
+        <div>
+          <img src="https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <span>Industrial</span>
+        </div>
+        <button onclick="abrirPopup('popupIndustrial')">Veja Mais</button>
+        <dialog id="popupIndustrial" class="popup">
+          <div>
+            <h1>Industrial</h1>
+            <button onclick="fecharPopup('popupIndustrial')">X</button>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur provident vel unde amet enim atque cumque est ad explicabo ipsum cum veritatis aliquam cupiditate, inventore ratione incidunt illo vero eum?</p>
+        </dialog>
+      </div>
+      <div class="area_atuacao" id="residencial">
+        <div>
+          <img src="https://images.pexels.com/photos/2591198/pexels-photo-2591198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <span>Residencial</span>
+        </div>
+        <button onclick="abrirPopup('popupResidencial')">Veja Mais</button>
+        <dialog id="popupResidencial" class="popup">
+          <div>
+            <h1>Residencial</h1>
+            <button onclick="fecharPopup('popupResidencial')">X</button>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur provident vel unde amet enim atque cumque est ad explicabo ipsum cum veritatis aliquam cupiditate, inventore ratione incidunt illo vero eum?</p>
+        </dialog>
+      </div>
+    </div>
+  </section>
+
+  <section id="section5">
+  </section>
+
+  <section id="section6">
+    <div id="img_entre_em_contato"></div>
+    <div id="info_entre_em_contato">
+      <h1>Entre em <br> Contato</h1>
+      <p> 
+        Telefone <br>
+        (11) 91637-4921
+      </p>
+      <p>
+        E-mail <br>
+        ropeaccessspgustavo@gmail.com
+      </p>
+      <p>
+        Sociais
+      </p>
+      <div id="icones_redes_sociais">
+        <a href="https://www.instagram.com/ropeaccesssp?igsh=dGQzbzE1ZnR2NHk2&utm_source=qr" class="icone_rede_social" target="_blank"><img src="./images/instagram.png" alt="icone instragram"></a>
+        <a href="#" class="icone_rede_social" target="_blank"><img src="./images/linkedin.png" alt="icone linkedin"></a>
+        <a href="https://wa.me/5511916374921?text=Olá, me interessei pelo seu trabalho, podemos conversar?" class="icone_rede_social" target="_blank"><img src="./images/whatsapp.png" alt="icone Whatsapp"></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=e1KsAVDTSfCQCNjn" class="icone_rede_social" id="icone_maps" target="_blank"><img src="./images/map-1272165_960_720.webp" alt="icone maps"></a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
