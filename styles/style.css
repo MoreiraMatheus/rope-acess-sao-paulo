@@ -52,10 +52,6 @@ section{
   animation-range: cover 0% cover 40%;
 }
 
-#section1, #section2, #section4{
-  background-color: #FFF;
-}
-
 #section1{
   background-image: url(../images/Welcome.png);
   background-repeat: no-repeat;
@@ -246,8 +242,8 @@ section{
   column-gap: 16px;
 }
 #section5 > div > img{
-  width: 25%;
-  height: 25%;
+  width: 51%;
+  height: 51%;
   flex: 1;
   display: none;
 }

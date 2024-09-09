@@ -1,3 +1,9 @@
+@media (prefers-color-scheme: dark) {
+  #section1, #section2, #section4{
+    background-color: #FFF;
+  }
+}
+
 /* Telas Grandes */
 @media (min-width: 2000px) { 
 
@@ -65,8 +71,8 @@
     margin-bottom: 16px;
   }
   .imgs_colaborador > img{
-    height: 25vh;
-    width: 25vw;
+    height: 20vh;
+    width: 20vw;
   }
 
   #section4 > div{
