@@ -52,6 +52,10 @@ section{
   animation-range: cover 0% cover 40%;
 }
 
+#section1, #section2, #section4{
+  background-color: #FFF;
+}
+
 #section1{
   background-image: url(../images/Welcome.png);
   background-repeat: no-repeat;
