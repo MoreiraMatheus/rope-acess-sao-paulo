@@ -1,0 +1,164 @@
+/* Telas Grandes */
+@media (min-width: 2000px) { 
+
+}
+@media (min-width: 1450px) { 
+  #section4 > div{
+    justify-content: center;
+    column-gap: 40px;
+  }
+  #section6 {
+    justify-content: center;
+  }
+}
+
+/* Telas Médias */
+@media (min-width: 900px) {
+
+}
+
+@media (max-width: 800px) {
+  #section2 > h1{
+    font-size: 45px;
+  }
+  #section2 > p{
+    text-align: center;
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 700px) {
+
+}
+
+/* Telas Pequenas */
+@media (max-width: 600px) {
+  section{
+    padding: 38px;
+  }
+  #section1{
+    background-position: right;
+    align-items: center;
+    row-gap: 20%;
+  }
+  #section1 > img{
+    display: block;
+    width: 45%;
+  }
+  #section1 > p{
+    display: block;
+    font-size: 34px;
+  }
+
+  #section2 > p{
+    font-size: 24px;
+  }
+  
+  #section3{
+    height: fit-content;
+  }
+  #section3 > div{
+    flex-direction: column;
+  }
+  .colaborador {
+    width: 95%;
+    margin-bottom: 16px;
+  }
+  .imgs_colaborador > img{
+    height: 30vh;
+    width: 30vw;
+  }
+
+  #section4 > div{
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  #section5{
+    background-image: none;
+  }
+  #section5 > div > img, #section5 > div > p{
+    display: block;
+  }
+  .area_atuacao{
+    row-gap: 8px;
+  }
+  #section6{
+    flex-direction: column;
+  }
+  #img_entre_em_contato{
+    display: none;
+  }
+  #info_entre_em_contato{
+    margin: none;
+  }
+  #icones_redes_sociais{
+    display: flex;
+  }
+}
+@media (max-width: 480px) {
+  #section1{
+    align-items: center;
+    row-gap: 20%;
+    background-image: none;
+  }
+  #section1 > img{
+    width: 60%;
+  }
+  #section1 > p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  #section2 > p{
+    font-size: 25px;
+    margin: 1vh 0;
+  }
+}
+
+@media (max-width: 390px) {
+  #section1{
+    background-position: center;
+  }
+
+  #section2 > h1{
+    font-size: 36px;
+  }
+  #section2 > p{
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 350px) {
+  #section1{
+    align-items: center;
+    row-gap: 20%;
+  }
+  #section1 > img{
+    width: 70%;
+  }
+  #section1 > p{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  #section2 > h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  #section2 > p{
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 300px) {
+  section2 > h1{
+    font-size: 28px;
+  }
+  #section2 > p{
+    font-size: 19px;
+  }
+}

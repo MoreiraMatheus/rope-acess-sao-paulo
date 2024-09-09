@@ -56,7 +56,19 @@ section{
   background-image: url(../images/Welcome.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   animation: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30%;
+}
+#section1 > img, #section1 > p{
+  display: none;
+}
+#section1 > p{
+  width: 50%;
+  font-weight: 400;
+  text-shadow: 0 0 5px #CCC;
 }
 
 #section2{
@@ -140,6 +152,7 @@ section{
 
 #section4{
   flex-direction: column;
+  height: max-content;
 }
 #section4 > h1{
   margin-bottom: 7vh;
@@ -218,6 +231,24 @@ section{
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2vh;
+}
+#section5 > div {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+#section5 > div > img{
+  width: 25%;
+  height: 25%;
+  flex: 1;
+  display: none;
+}
+#section5 > div > p{
+  display: none;
 }
 
 #section6{
@@ -232,7 +263,7 @@ section{
   min-width: 500px;
   height: 500px;
   margin: 0 40px;
-  background-image: url(../images/Foto_Entre_em_contato.jpg);
+  background-image: url(../images/colaboradores/Foto_Entre_em_contato.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
