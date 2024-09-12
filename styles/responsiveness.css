@@ -79,6 +79,10 @@
     flex-direction: column;
     row-gap: 16px;
   }
+  .popup{
+    width: 80%;
+  }
+
   #section5{
     background-image: none;
   }
